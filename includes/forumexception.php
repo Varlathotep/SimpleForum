@@ -2,7 +2,7 @@
 
 namespace SimpleForum;
 
-class ForumException implements DataWriter {
+class ForumException extends \Exception {
 	use Commitable;
 
 	public function insert() {

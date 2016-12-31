@@ -2,7 +2,7 @@
 
 namespace SimpleForum;
 
-class post implements DataObject {
+class Post implements DataObject {
 	use Commitable;
 	use Getable;
 
